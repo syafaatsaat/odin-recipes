@@ -1,24 +1,42 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ol > li, ul > li {
+    margin-bottom: 12px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .urbanist {
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .lilita-one-regular {
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.recipe-links a:link, .recipe-links a:visited, .nav a:link, .nav a:visited {
+    text-decoration: none;
 }
 
 a:link, a:visited {
-    text-decoration: none;
     color: black;
 }
 
@@ -26,18 +44,35 @@ h1 {
     margin: 0px auto;
     text-align: center;
     padding: 20px;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 900;
     letter-spacing: 10px;
 }
 
-.nav, .recipe-links {
+.italic {
+    font-style: italic;
+}
+
+.nav, .recipe-links, .recipe-body {
     width: 1080px;
     margin: 0 auto;
 }
 
+.recipe-body h1 {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
 .middle {
     margin: 0 50px;
+}
+
+.picture {
+    margin: 0 auto;
+    width: 359px;
 }
 
 .recipe-container {
@@ -55,6 +90,10 @@ h1 {
     font-style: normal;
 }
 
-.recipe-links a:hover {
+.nav a:hover {
+    color: black;
+}
+
+a:hover {
     color: gray;
 }
