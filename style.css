@@ -53,9 +53,13 @@ h1 {
     font-style: italic;
 }
 
-.nav, .recipe-links, .recipe-body {
+.nav, .recipe-links, .recipe-body, footer {
     width: 1080px;
     margin: 0 auto;
+}
+
+footer {
+    text-align: center;
 }
 
 .recipe-body h1 {
